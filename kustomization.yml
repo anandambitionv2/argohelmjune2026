@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - dep2.yml
+  - dep3.yml
+  - deployment.yml
+  - namespace.yml
+images:
+  - name: acrargotest.azurecr.io/frontend
+    newTag: "2171"
