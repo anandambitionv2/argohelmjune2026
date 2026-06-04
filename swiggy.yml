@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swiggy3
+  # namespace: default
+  labels:
+    app: swiggy3
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: swiggy3
+  template:
+    metadata:
+      labels:
+        app: swiggy3
+    spec:
+      containers:
+      - name: swiggy3
+        image: acrargotest.azurecr.io/frontend
+        ports:
+        - containerPort: 80
