@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - acrargotest.azurecr.io/frontend:latest
