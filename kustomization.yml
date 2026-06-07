@@ -10,4 +10,4 @@ resources:
   - swiggy6.yml
 images:
   - name: acrargotest.azurecr.io/frontend
-    newTag: "2174"
+    newTag: "2173"
