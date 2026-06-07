@@ -7,7 +7,7 @@ resources:
   - namespace.yml
   # - swiggy.yml
   # - swiggy4.yml
-  - swiggy5.yml
+  - swiggy6.yml
 images:
   - name: acrargotest.azurecr.io/frontend
     newTag: "2171"
